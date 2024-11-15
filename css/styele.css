@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image: url(../img/pexels-pixabay-356079.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.main-container{
+    border: solid 1px black;
+    width:700px;
+    margin:0 auto;
+    background-color: white;
+    align-items: center;
+    border-radius: 17px;
+    margin-top: 200px;
+}
+.My-title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+.desc-1 , .desc-2 , .desc-3{
+    display: none;
+    width:650px;
+    margin: 20px auto;
+}
+hr{
+    margin:20px 0;
+}
+.first-container, .second-container, .third-container{
+    display:flex;
+    width: 650px;
+    margin:0 auto;
+    
+}
+.q1, .q2, .q3{
+    width:97%;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+
+}
+.btn{
+    width:3%;
+    text-align: right;
+}
+.btn h4{
+    font-size: larger;
+}
+.mystyle{
+    display:block;
+    width:650px;
+    margin: 20px auto;
+    transition: all 0.5s ease;
+}
+.replaced{
+    visibility: hidden;
+    position: relative;
+
+}
+.replaced:after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "-"
+}
